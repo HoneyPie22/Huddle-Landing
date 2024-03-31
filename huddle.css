@@ -1,0 +1,354 @@
+nav {
+    justify-content: space-between;
+    display: flex;
+    margin: 70px 60px;
+}
+.logo {
+    height: 40px;
+}
+.btn-primary {
+    color: hsl(321, 100%, 78%);
+    background-color: white;
+    border: 1px solid;
+    border-radius: 40px;
+    border-color: hsl(321, 100%, 78%);
+    width: 136px;
+    font-family: 'open sans';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.first-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 90px 100px;
+    flex-direction: column;
+
+}
+
+.build {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.build h1 {
+    font-family: 'poppins';
+    font-weight: 700 ;
+    font-size: 38px;
+    color: hsl(192, 100%, 9%);
+    margin-bottom: 18px;
+
+}
+
+.build p {
+    font-family: 'open sans';
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+    font-size: 20px;
+    padding: 0px 100px;
+    text-align-last: center;
+
+}
+
+.btn-secondary {
+    padding: 0px 110px;
+    margin:auto;
+    border-radius: 35px ;
+    height: 68px;
+    color: white;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 18px;
+
+}
+
+.illustration1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.num1 {
+    display: flex;
+    flex-direction: column;
+}
+.num1 h4 {
+    font-family: 'open sans';
+    font-weight:700;
+    font-size: 96px;
+    color: hsl(192, 100%, 9%);
+    display: contents;
+}
+
+.num1 p {
+    font-family: 'open sans';
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(128, 142, 154, 1);
+
+}
+.num2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.num2 h4 {
+    font-family: 'open sans';
+    font-weight:700;
+    font-size: 96px;
+    color: hsl(192, 100%, 9%);
+    display: contents;
+}
+.num2 p {
+    font-family: 'open sans';
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(128, 142, 154, 1);
+    text-align: center;
+}
+.imgnum1 {
+    width:46px;
+} 
+
+.imgnum2 {
+    width:56px;
+}
+
+.features1 {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.featimg1 {
+    width: 500px;
+}
+.text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text1 h2 {
+    font-family: 'poppins';
+    color:hsl(192, 100%, 9%);
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.text1 p {
+    font-family: 'open sans';
+    color:hsl(192, 100%, 9%);
+    font-size: 16px;
+    font-weight: 400;
+    width: 520px;
+}
+
+.features2 {
+    display: flex;
+    margin-top: 80px;
+    flex-direction: row-reverse;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.featimg2 {
+    width: 500px;
+}
+.text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text2 h2 {
+    font-family: 'poppins';
+    color:hsl(192, 100%, 9%);
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.text2 p {
+    font-family: 'open sans';
+    color:hsl(192, 100%, 9%);
+    font-size: 16px;
+    font-weight: 400;
+    width: 520px;
+}
+
+.features3 {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.featimg3 {
+    width: 500px;
+}
+.text3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text3 h2 {
+    font-family: 'poppins';
+    color:hsl(192, 100%, 9%);
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.text3 p {
+    font-family: 'open sans';
+    color:hsl(192, 100%, 9%);
+    font-size: 16px;
+    font-weight: 400;
+    width: 520px;
+}
+
+.features4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+
+}
+
+.features4 h2 {
+    font-family:'poppins';
+    font-weight: 700 ;
+    font-size: 40px;
+    color:hsl(192, 100%, 9%);
+}
+
+.btn-thirdly {
+    padding: 0px 110px;
+    margin:auto;
+    border-radius: 35px ;
+    height: 68px;
+    color: white;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 18px;
+
+}
+
+.foot1 {
+    background-color: hsl(192, 100%, 9%);
+    margin-top: 100px;
+    display: flex;
+    color: white;
+    height:250px;
+    padding: 100px;
+    justify-content: space-between;
+
+}
+
+.p1 {
+    font-family: 'open sans';
+    font-size: 15px;
+    font-weight: 400;
+    height: 72px;
+    width: 340px;
+}
+
+.p2 {
+    height: 27px;
+    font-family: 'open sans';
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.socials {
+    width: 144px;
+    height: 32px;
+
+}
+
+.fb {
+    width:32px;
+    height:32px;
+}
+
+.ins {
+    width:32px;
+    height:32px;
+}
+
+.tw {
+    width:32px;
+    height:32px;
+}
+
+.newsletter h3 {
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.newsletter p {
+    width: 344px;
+    font-family: 'open sans';
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.input {
+    width: 320px;
+    height:48px;
+    border-radius: 7px;
+    border-color:hsl(0, 100%, 63%) ;
+    margin-top: 16px;
+}
+
+.last-btn {
+    background-color: hsl(321, 100%, 78%);
+    border-radius: 7px;
+    font-family:'open sans';
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    height: 48px;
+    width: 160px;
+    color: white;
+    margin-left: 12px;
+
+}
+@media only screen and (max-width:345px) {
+    nav {
+        margin: 30px 20px; 
+    }
+
+    .logo {
+        height: 30px; 
+    }
+
+    .btn-primary, .btn-secondary, .btn-thirdly, .last-btn {
+        width: 100%; 
+        margin: 10px auto; 
+        padding: 10px; 
+        font-size: 14px; 
+    }
+
+    
+}
